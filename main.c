@@ -18,14 +18,14 @@ int main( int argc, char** argv )
    preOrder( b.root );
 
    // traverse the tree inOrder
-   printf("\ninOrder traversal is:\n" );
+   printf("\ninOrder\n" );
    inOrder( b.root );
 
    // traverse the tree postOrder
  printf("\npostOrder\n" );   
  postOrder( b.root );
 
- printf("\nThe tree traversal is:\n" );   
+ printf("\nprintTree\n" );   
  printTree( b.root ,0);
 
     printf("\n");
